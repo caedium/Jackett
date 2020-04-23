@@ -119,6 +119,8 @@ search:
           args: ["(?i)WEB\\sDL", "WEB-DL"]
         - name: re_replace
           args: ["(?i)HDTVRIP", "HDTV"]
+        - name: append
+          args: " ITA"
     description:
       selector: td:nth-child(1) a
       attribute: href
